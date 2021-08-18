@@ -1,0 +1,42 @@
+body {
+		background-image: url("Imagens/rei-ayanami-bread.gif");
+
+	}	
+    h1 {
+        font-family: 'Times new roman',Times, serif;
+
+        text-align: center;
+       
+        font-size: 50px;
+         border-style: solid;
+background-color: gray;
+margin-left: 725px;
+margin-right: 725px;
+    }
+h2{
+    font-family:'Times New Roman', Times, serif;
+     text-align: center;
+     font-size: 35px;
+    border-style: solid;
+    background-color: lightgrey;
+}
+p{  font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 35px;
+   border-style: solid;
+   background-color: grey;
+margin-left: 725px;
+margin-right: 725px;  }
+img {width:560px;border: 5px solid ;
+}
+div {
+    text-align: center;
+  }
+  h3{
+    font-family:'Times New Roman', Times, serif;
+     text-align: center;
+     font-size: 35px;
+    border-style: solid;
+    background-color: lightgrey;}
+
+ 
