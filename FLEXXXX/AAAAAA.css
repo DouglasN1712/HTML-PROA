@@ -7,7 +7,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
     margin:10px;
     }
-    .BOX{
+    .box{
     background-color:rgb(0, 109, 0);
     height:10vh;
     width:100vw;
@@ -16,7 +16,7 @@ body{
     *{
     margin:0;
     }
-    .BOX2{
+    .box2{
     background-color:rgb(245, 245, 0);
     height:45vh;
     width:30vw;
@@ -31,20 +31,20 @@ body{
     width:100vw;
     }
     
-    .BOX3{
+    .box3{
         background-color:rgb(255, 0, 0);
         height:30vh;
         width:30vw;
         margin-top:200px;
     }
     
-    .BOX4{
+    .box4{
         background-color:rgb(0, 243, 243);
         height:60vh;
         width:30vw;
-        margin-top:100px;
+        margin-top:50px;
     }
-    .BOX5{
+    .box5{
      background-color:rgb(255, 174, 0);
      height:10vh;
      width:100vw;
