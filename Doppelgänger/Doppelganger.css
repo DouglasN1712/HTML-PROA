@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital@1&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --font-Urbanist: "Urbanist", sans-serif;
+  --roxo: #845ec2;
+  --cinza: #efeef0;
+  --body: #f5f5f5;
+  --border-radius: 5px;
+}
+
+body {
+  background-color: var(--roxo);
+}
+.container {
+
+  width: 100vw;
+  height: 100vh;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-form {
+  
+  width: 26.8em;
+  height: 37.5em;
+  background-color: var(--body);
+  border-radius: 0.5em;
+}
+
+.logo {
+  font-family: var(--font-Urbanist);
+  color: var(--roxo);
+  font-size: 0.6em;
+  text-align: center;
+  margin: 45px;
+}
+
+.lines-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  margin: 20px 0;
+}
+
+
+form .input-block {
+  margin-bottom: 25px;
+}
+form .input-block input {
+  width: 340px;
+  padding: 8px;
+  background-color: var(--cinza);
+  outline-color: var(--roxo);
+  border: 1px solid var(--roxo);
+  border-radius: 5px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: var(--cinza);
+  margin: 0 auto 0 auto;
+}
+
+.rectangle {
+  width: 200px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: var(--cinza);
+  margin: 0 auto 0 auto;
+}
