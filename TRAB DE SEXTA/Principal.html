@@ -20,7 +20,6 @@
     <title>Fintech Paçoca Simulador</title>
 <script>
 
-// puxando os dados do formulário
 const simular = document.getElementById('simular');
 
 function simulador() {
@@ -29,9 +28,9 @@ function simulador() {
     const input_tempo = document.getElementById('input_tempo').value;
     const resultado = document.getElementById('resultado');
 
-    // validação do formulário
+
     if (input_nome !== '' && input_mensalidade !== '' && input_tempo !== '') {
-        // tofixed serve para arredondar as casas decimais
+
         const calculo = (input_mensalidade * input_tempo).toFixed(2);
         resultado.textContent = Olá, ${input_nome}! Juntando ${input_mensalidade} todo mês, você terá ${calculo} em ${input_tempo} ano(s).;
     } else {
@@ -39,8 +38,6 @@ function simulador() {
     }
 }
 
-// quando o usuário cliclar no botão de "simular", o evento de clique de
-// vai acontecer e pegará os dados informados
 simular.addEventListener('click', simulador);
 </script>
 
