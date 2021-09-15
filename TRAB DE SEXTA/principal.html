@@ -18,28 +18,6 @@
    
    
     <title>Fintech Paçoca Simulador</title>
-<script>
-
-const simular = document.getElementById('simular');
-
-function simulador() {
-    const input_nome = document.getElementById('input_nome').value;
-    const input_mensalidade = document.getElementById('input_mensalidade').value;
-    const input_tempo = document.getElementById('input_tempo').value;
-    const resultado = document.getElementById('resultado');
-
-
-    if (input_nome !== '' && input_mensalidade !== '' && input_tempo !== '') {
-
-        const calculo = (input_mensalidade * input_tempo).toFixed(2);
-        resultado.textContent = Olá, ${input_nome}! Juntando ${input_mensalidade} todo mês, você terá ${calculo} em ${input_tempo} ano(s).;
-    } else {
-        resultado.textContent = "Preencha todos os campos, corno.";
-    }
-}
-
-simular.addEventListener('click', simulador);
-</script>
 
 </head>
 
@@ -52,15 +30,15 @@ simular.addEventListener('click', simulador);
             <fieldset>
                 <div class="input-block">
                     <label for="Nome">Nome</label>
-                    <input type="text" value="" placeholder="Somente letras">
+                    <input type="text" id="input_nome" value="" placeholder="Somente letras">
                 </div>
                 <div class="input-block">
                     <label for="Mes"> Valor da mensalidade</label>
-                    <input type="number" value="Mes" placeholder="Somente números">
+                    <input type="number" id="input_mensalidade" value="Mes" placeholder="Somente números">
                 </div>
                 <div class="input-block">
                     <label for="periodo">Tempo</label>
-                    <select placeholder="Selecione" value="periodo">
+                    <select placeholder="Selecione" id="input_tempo" value="periodo">
                         <option value='0' disabled>Selecione </option>
                         <option value='1'>1 ano</option>
                         <option value='2'>2 anos</option>
@@ -75,12 +53,11 @@ simular.addEventListener('click', simulador);
                     </select>
                 </div>
             </fieldset>
-            <button type="submit"><a href="./COMPRA2.html" target="_blanck">Simular</a></button>
+            <button id="simular">Simular</button>
         </div>
     </div>
-
-
-
+<div class="resultado" id="resultado"></div>
+    <script src="./jvaaaaaaaaaa.js"></script>
 
 
 
